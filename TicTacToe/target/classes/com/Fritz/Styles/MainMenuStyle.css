@@ -1,0 +1,27 @@
+
+/*    All buttons    */
+
+.button {
+    -fx-cursor: hand;
+}
+
+/*  Main Menu Scene  */
+
+#mainMenuSceneCSS {
+    -fx-background-color: #14bdac;
+    -fx-effect: innershadow( gaussian , rgba(0,0,0,0.5) , 20,0,0,0 );
+}
+
+#titleGameCSS {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 2, 0.8, 2, 2);
+}
+
+#playButtonCSS, #instructionsButtonCSS, #exitButtonMainMenuCSS {
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+  -fx-background-radius: 20px;
+  -fx-background-color: white;
+}
+
+#playButtonCSS:hover, #instructionsButtonCSS:hover, #exitButtonMainMenuCSS:hover {
+    -fx-effect: innershadow( gaussian , rgba(0,0,0,0.7) , 20,0,0,0 );
+}

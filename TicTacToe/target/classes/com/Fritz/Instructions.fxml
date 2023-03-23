@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="instructionsSceneCSS" prefHeight="400.0" prefWidth="500.0" stylesheets="@Styles/InstructionsStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Fritz.InstructionsController">
+    <Label id="instructionLabel1CSS" layoutX="14.0" layoutY="16.0" maxWidth="475.0" text="You probably already know how to play Tic-Tac-Toe. It's a really simple game, right? That's what most people think. But if you really wrap your brain around it, you'll discover that Tic-Tac-Toe isn't quite as simple as you think!" wrapText="true">
+        <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+        </font></Label>
+    <Label id="instructionLabel2" layoutX="14.0" layoutY="99.0" maxWidth="475.0" text="Tic-Tac -Toe (along with a lot of other games) involves looking ahead and trying to figure out what the person playing against you might do next." wrapText="true">
+        <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+        </font></Label>
+    <Label id="instructionLabel3" layoutX="14.0" layoutY="150.0" maxWidth="450.0" text="RULES FOR TIC-TAC-TOE" textFill="WHITE">
+        <font>
+            <Font name="Arial Bold" size="18.0" />
+        </font></Label>
+    <Label id="instructionLabel4" layoutX="15.0" layoutY="180.0" maxWidth="475.0" text="1. The game is played on a grid that's 3 squares by 3 squares." wrapText="true">
+        <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+        </font></Label>
+    <Label id="instructionLabel5" layoutX="15.0" layoutY="207.0" maxWidth="475.0" text="2. You are X, your friend (or the computer in this case) is O. Players take turns putting their marks in empty squares." wrapText="true">
+        <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+        </font></Label>
+    <Label id="instructionLabel6" layoutX="14.0" layoutY="252.0" maxWidth="475.0" text="3. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner." wrapText="true">
+        <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+        </font></Label>
+    <Label id="instructionLabel7" layoutX="14.0" layoutY="295.0" maxWidth="475.0" text="4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie." wrapText="true">
+        <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+        </font></Label>
+    <Button id="instructionsBackToMainButtonCSS" fx:id="instructionsBackToMainButton" layoutX="216.0" layoutY="344.0" mnemonicParsing="false" onAction="#switchToMainMenu" text="Back" textFill="#793c3c">
+        <font>
+            <Font name="Arial Bold" size="18.0" />
+        </font></Button>
+</AnchorPane>

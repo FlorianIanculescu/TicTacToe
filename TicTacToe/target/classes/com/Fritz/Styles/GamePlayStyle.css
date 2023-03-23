@@ -1,0 +1,50 @@
+
+/*    All buttons    */
+
+.button {
+    -fx-cursor: hand;
+}
+
+/*    Gameplay Scene    */
+
+#gamePlaySceneCSS {
+    -fx-background-color: #14bdac;
+    -fx-effect: innershadow( gaussian , rgba(0,0,0,0.5) , 20,0,0,0 );
+}
+
+#infoLabelCSS {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 0, 0.8, 2, 0);
+}
+
+#xLabelCSS, #xValueLabelCSS, #0LabelCSS, #0ValueLabelCSS {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 0, 0.8, 2, 0);
+}
+
+#button1CSS, #button2CSS, #button3CSS, #button4CSS, #button5CSS, #button6CSS, #button7CSS, #button8CSS, #button9CSS {
+    -fx-background-color: TRANSPARENT;
+}
+
+#button5CSS {
+    -fx-border-color: #793c3c;
+    -fx-border-width: 5;
+}
+
+#button2CSS, #button8CSS {
+    -fx-border-color: #793c3c;
+    -fx-border-width: 0 5 0 5;
+}
+
+#button4CSS, #button6CSS {
+    -fx-border-color: #793c3c;
+    -fx-border-width: 5 0 5 0;
+}
+
+#gamePlayBackToMainButtonCSS, #gamePlayPlayAgainButtonCSS, #gamePlayExitButtonCSS {
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+  -fx-background-radius: 20px;
+  -fx-background-color: white;
+}
+
+#gamePlayBackToMainButtonCSS:hover, #gamePlayPlayAgainButtonCSS:hover, #gamePlayExitButtonCSS:hover {
+    -fx-effect: innershadow( gaussian , rgba(0,0,0,0.7) , 20,0,0,0 );
+}

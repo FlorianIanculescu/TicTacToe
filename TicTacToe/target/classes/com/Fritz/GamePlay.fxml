@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane id="gamePlaySceneCSS" prefHeight="475.0" prefWidth="450.0" stylesheets="@Styles/GamePlayStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Fritz.GamePlayController">
+    <bottom>
+        <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0" spacing="20.0" BorderPane.alignment="CENTER">
+            <Button id="gamePlayBackToMainButtonCSS" fx:id="gamePlayBackToMainButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#switchToMainMenu" prefHeight="35.0" prefWidth="125.0" text="Back" textFill="#793c3c">
+                <font>
+                    <Font name="Arial Bold" size="18.0" />
+                </font>
+                <HBox.margin>
+                    <Insets />
+                </HBox.margin>
+            </Button>
+            <Button id="gamePlayPlayAgainButtonCSS" fx:id="gamePlayPlayAgainButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleRestartGame" prefHeight="35.0" prefWidth="125.0" text="Play Again" textFill="#793c3c">
+                <font>
+                    <Font name="Arial Bold" size="18.0" />
+                </font>
+                <HBox.margin>
+                    <Insets />
+                </HBox.margin>
+            </Button>
+            <Button id="gamePlayExitButtonCSS" fx:id="gamePlayExitButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleExitButton" prefHeight="35.0" prefWidth="125.0" text="Exit" textFill="#793c3c">
+                <font>
+                    <Font name="Arial Bold" size="18.0" />
+                </font>
+                <HBox.margin>
+                    <Insets />
+                </HBox.margin>
+            </Button>
+        </HBox>
+    </bottom>
+    <left>
+        <Label prefHeight="250.0" prefWidth="75.0" BorderPane.alignment="CENTER" />
+    </left>
+    <right>
+        <Label prefHeight="250.0" prefWidth="75.0" BorderPane.alignment="CENTER" />
+    </right>
+    <top>
+        <VBox id="topVBox" prefHeight="100.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <Label id="infoLabelCSS" fx:id="infoLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="600.0" text="Start Game - Player X's turn" textFill="#793c3c">
+                <font>
+                    <Font name="Arial Bold" size="32.0" />
+                </font></Label>
+            <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0">
+                <Label id="xLabelCSS" text="X     -  " textFill="#793c3c">
+                    <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Arial Bold" size="22.0" />
+                    </font>
+                </Label>
+                <Label id="xValueLabelCSS" fx:id="scoreX" text="0" textFill="#793c3c">
+                    <HBox.margin>
+                        <Insets left="10.0" right="30.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Arial Bold" size="22.0" />
+                    </font>
+                </Label>
+                <Label id="0LabelCSS" text="0     -  " textFill="#793c3c">
+                    <HBox.margin>
+                        <Insets left="30.0" right="10.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Arial Bold" size="22.0" />
+                    </font>
+                </Label>
+                <Label id="0ValueLabelCSS" fx:id="score0" text="0" textFill="#793c3c">
+                    <HBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Arial Bold" size="22.0" />
+                    </font>
+                </Label>
+            </HBox>
+        </VBox>
+    </top>
+    <center>
+        <GridPane id="gridPaneCSS" alignment="CENTER" BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <Button id="button1CSS" fx:id="button1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleButton" prefHeight="116.0" prefWidth="100.0">
+                <font>
+                    <Font name="Arial Bold" size="48.0" />
+                </font>
+            </Button>
+            <Button id="button2CSS" fx:id="button2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleButton" prefHeight="151.0" prefWidth="100.0" GridPane.columnIndex="1">
+                <font>
+                    <Font name="Arial Bold" size="48.0" />
+                </font>
+            </Button>
+            <Button id="button3CSS" fx:id="button3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleButton" prefHeight="119.0" prefWidth="100.0" GridPane.columnIndex="2">
+                <font>
+                    <Font name="Arial Bold" size="48.0" />
+                </font>
+            </Button>
+            <Button id="button4CSS" fx:id="button4" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleButton" prefHeight="100.0" prefWidth="129.0" GridPane.rowIndex="1">
+                <font>
+                    <Font name="Arial Bold" size="48.0" />
+                </font>
+            </Button>
+            <Button id="button5CSS" fx:id="button5" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleButton" prefHeight="214.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <font>
+                    <Font name="Arial Bold" size="48.0" />
+                </font>
+            </Button>
+            <Button id="button6CSS" fx:id="button6" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleButton" prefHeight="100.0" prefWidth="126.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <font>
+                    <Font name="Arial Bold" size="48.0" />
+                </font>
+            </Button>
+            <Button id="button7CSS" fx:id="button7" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleButton" prefHeight="100.0" prefWidth="100.0" GridPane.rowIndex="2">
+                <font>
+                    <Font name="Arial Bold" size="48.0" />
+                </font>
+            </Button>
+            <Button id="button8CSS" fx:id="button8" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleButton" prefHeight="108.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <font>
+                    <Font name="Arial Bold" size="48.0" />
+                </font>
+            </Button>
+            <Button id="button9CSS" fx:id="button9" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleButton" prefHeight="100.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <font>
+                    <Font name="Arial Bold" size="48.0" />
+                </font>
+            </Button>
+        </GridPane>
+    </center>
+</BorderPane>
