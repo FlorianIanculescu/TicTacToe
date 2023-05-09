@@ -1,9 +1,7 @@
 # TicTacToe 
 
 [![language](https://img.shields.io/badge/language-Java%2017-blue?labelColor=gray&style=flat&link=https://www.java.com/en/)](https://www.java.com/en/)
-
 [![library](https://img.shields.io/badge/library-JavaFX-green?labelColor=gray&style=flat&link=https://openjfx.io/)](https://openjfx.io/)
-
 [![tool](https://img.shields.io/badge/tool-Scene%20Builder-orange?labelColor=gray&style=flat&link=https://gluonhq.com/products/scene-builder/)](https://gluonhq.com/products/scene-builder/)
 
 This is a classic Tic Tac Toe game built using JavaFX, a popular framework for building desktop applications with Java. 
