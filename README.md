@@ -3,6 +3,8 @@
 [![language](https://img.shields.io/badge/language-Java%2017-blue?labelColor=gray&style=flat&link=https://www.java.com/en/)](https://www.java.com/en/)
 [![library](https://img.shields.io/badge/library-JavaFX-green?labelColor=gray&style=flat&link=https://openjfx.io/)](https://openjfx.io/)
 [![tool](https://img.shields.io/badge/tool-Scene%20Builder-orange?labelColor=gray&style=flat&link=https://gluonhq.com/products/scene-builder/)](https://gluonhq.com/products/scene-builder/)
+[![IDE](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-green?labelColor=gray&style=flat&link=https://www.jetbrains.com/idea/)](https://www.jetbrains.com/idea/)
+[![Style Sheet Language](https://img.shields.io/badge/Style%20Sheet%20Language-CSS-blue?labelColor=gray&style=flat&link=https://developer.mozilla.org/en-US/docs/Web/CSS)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 This is a classic Tic Tac Toe game built using JavaFX, a popular framework for building desktop applications with Java. 
 
@@ -38,5 +40,9 @@ git clone https://github.com/FlorianIanculescu/TicTacToe.git
   - JavaFX
 
 ## Screenshots
+![Screenshot 1](https://github.com/FlorianIanculescu/TicTacToe/assets/46021975/5e151fb7-ce01-49aa-bf62-dcea3d089954)
+![Screenshot 2](https://github.com/FlorianIanculescu/TicTacToe/assets/46021975/cf978656-cd7d-47dd-8257-24e395218202)
+![Screenshot 3](https://github.com/FlorianIanculescu/TicTacToe/assets/46021975/45e7d167-cc3f-4b16-a1bd-e39f2deba546)
+![Screenshot 4](https://github.com/FlorianIanculescu/TicTacToe/assets/46021975/8c70bf99-b4ce-4555-a32f-7f8881b63799)
 
 ## Have Fun! 😄
