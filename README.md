@@ -23,7 +23,7 @@ git clone https://github.com/FlorianIanculescu/TicTacToe.git
   - The game has a graphical user interface built using [JavaFX](https://openjfx.io/), which makes it easy and intuitive to play 
   - The game keeps track of the score of each player, and displays it on the screen
   - The game is built using object-oriented programming principles, which makes it easy to extend and modify
-  - Option to reset the game at any time
+  - Option to reset the game at any time 
   
 ## How to play
 
